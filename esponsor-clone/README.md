@@ -1,618 +1,1197 @@
-# 🎯 TipSee - Plataforma de Links y Apoyos para Creadores<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# 🎯 TipSee - Plataforma de Links y Apoyos para Creadores# 🎯 TipSee - Plataforma de Links y Apoyos para Creadores<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 
 
-![Laravel](https://img.shields.io/badge/Laravel-12.x-red?style=flat-square&logo=laravel)<p align="center">
+![Laravel](https://img.shields.io/badge/Laravel-12.x-red?style=flat-square&logo=laravel)
 
-![Vue.js](https://img.shields.io/badge/Vue.js-3.x-green?style=flat-square&logo=vue.js)<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
+![Vue.js](https://img.shields.io/badge/Vue.js-3.x-green?style=flat-square&logo=vue.js)
 
-![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.x-blue?style=flat-square&logo=tailwind-css)<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
+![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.x-blue?style=flat-square&logo=tailwind-css)![Laravel](https://img.shields.io/badge/Laravel-12.x-red?style=flat-square&logo=laravel)<p align="center">
 
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
 
-TipSee es una plataforma moderna que permite a los creadores de contenido:<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 
-- 📱 Crear una página de perfil público tipo Linktree</p>
+TipSee es una plataforma moderna que permite a los creadores de contenido:![Vue.js](https://img.shields.io/badge/Vue.js-3.x-green?style=flat-square&logo=vue.js)<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
 
-- 🔗 Agregar y ordenar links a sus redes sociales
+- 📱 Crear una página de perfil público tipo Linktree
 
-- 💰 Recibir apoyos/donaciones de su comunidad## About Laravel
+- 🔗 Agregar y ordenar links a sus redes sociales![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.x-blue?style=flat-square&logo=tailwind-css)<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
 
-- 📊 Ver estadísticas de apoyos recibidos
+- 💰 Recibir apoyos/donaciones de su comunidad
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+- 📊 Ver estadísticas de apoyos recibidos<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
 
----
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
 
-## 📋 Requisitos Previos- [Powerful dependency injection container](https://laravel.com/docs/container).
+---TipSee es una plataforma moderna que permite a los creadores de contenido:<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
 
-Antes de comenzar, asegúrate de tener instalado:- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
 
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
+## 📋 Requisitos Previos- 📱 Crear una página de perfil público tipo Linktree</p>
 
-- **PHP** >= 8.2- [Robust background job processing](https://laravel.com/docs/queues).
 
-- **Composer** >= 2.0- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
-- **Node.js** >= 18.x
+Antes de comenzar, asegúrate de tener instalado:- 🔗 Agregar y ordenar links a sus redes sociales
 
-- **NPM** >= 9.xLaravel is accessible, powerful, and provides tools required for large, robust applications.
+
+
+- **PHP** >= 8.2- 💰 Recibir apoyos/donaciones de su comunidad## About Laravel
+
+- **Composer** >= 2.0
+
+- **Node.js** >= 18.x- 📊 Ver estadísticas de apoyos recibidos
+
+- **NPM** >= 9.x
 
 - **SQLite** (o MySQL/PostgreSQL si prefieres)
 
-- **Git**## Learning Laravel
+- **Git**---
 
 
 
-### Verificar versiones instaladas:Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
+### Verificar versiones instaladas:- [Simple, fast routing engine](https://laravel.com/docs/routing).
 
 
 
-```bashIf you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+```bash## 📋 Requisitos Previos- [Powerful dependency injection container](https://laravel.com/docs/container).
 
 php --version
 
-composer --version## Laravel Sponsors
+composer --versionAntes de comenzar, asegúrate de tener instalado:
 
 node --version
 
-npm --versionWe would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+npm --version
 
 ```
 
-### Premium Partners
+- **PHP** >= 8.2- 
 
 ---
 
-- **[Vehikl](https://vehikl.com)**
+- **Composer** >= 2.0- 
 
-## 🚀 Instalación y Configuración- **[Tighten Co.](https://tighten.co)**
+## 🚀 Instalación y Configuración
 
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
+- **Node.js** >= 18.x
 
-### 1️⃣ Clonar el Repositorio- **[64 Robots](https://64robots.com)**
+### 1️⃣ Clonar el Repositorio
 
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
+- **NPM** >= 9.x
 
-```bash- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
+```bash
 
-git clone https://github.com/tu-usuario/tipsee.git- **[Redberry](https://redberry.international/laravel-development)**
+git clone https://github.com/only-nico/esponsor-clone.git- **SQLite** (o MySQL/PostgreSQL si prefieres)
 
-cd tipsee- **[Active Logic](https://activelogic.com)**
+cd esponsor-clone
 
-```
+```- **Git**## Learning Laravel
 
-## Contributing
+
 
 ### 2️⃣ Instalar Dependencias de PHP
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+
+
+```bash### Verificar versiones instaladas
+
+composer install
+
+```php --version
+
+
+
+**¿Qué hace este comando?**composer --version## Laravel Sponsors
+
+- Lee el archivo `composer.json` que contiene la lista de dependencias PHP
+
+- Descarga e instala Laravel y todos sus paquetes necesarios (Inertia, Breeze, etc.)node --version
+
+- Crea la carpeta `vendor/` con todas las librerías
+
+- Genera el autoloader de clases (`vendor/autoload.php`)npm --version
+
+
+
+### 3️⃣ Instalar Dependencias de JavaScript```
+
+
 
 ```bash
 
-composer install## Code of Conduct
+npm install## 🚀 Instalación y Configuración
 
 ```
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
 
-Este comando instalará todas las dependencias de Laravel listadas en `composer.json`.
+**¿Qué hace este comando?**
 
-## Security Vulnerabilities
+- Lee el archivo `package.json` que contiene las dependencias JavaScript### 1️⃣ Clonar el Repositorio
 
-### 3️⃣ Instalar Dependencias de JavaScript
+- Descarga e instala Vue 3, Inertia.js, Tailwind CSS, Vite y otros paquetes
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+- Crea la carpeta `node_modules/` con todas las librerías del frontend
+
+- Genera el archivo `package-lock.json` con las versiones exactas instaladas```bash
+
+
+
+### 4️⃣ Configurar Variables de Entornogit clone https://github.com/tu-usuario/tipsee.git- 
+
+
+
+Copia el archivo de ejemplo `.env.example` a `.env`:cd esponsor-clone 
+
+
+
+```bash```
+
+# Windows (PowerShell)
+
+Copy-Item .env.example .env
+
+### 2️⃣ Instalar Dependencias de PHP
+
+# Linux/Mac
+
+cp .env.example .env
+
+```
 
 ```bash
 
+Abre el archivo `.env` y configura las siguientes variables:
+
+composer install
+
+#### Configuración Básica
+
+```
+
+```env
+
+# Nombre de la aplicaciónEste comando instalará todas las dependencias de Laravel listadas en `composer.json`.
+
+APP_NAME=TipSee
+
+APP_ENV=local
+
+APP_DEBUG=true### 3️⃣ Instalar Dependencias de JavaScript
+
+APP_TIMEZONE=UTC
+
+
+
+# URL de la aplicación```bash
+
+APP_URL=http://localhost:8000
+
 npm install## License
+
+# Clave de encriptación (se genera en el paso siguiente)
+
+APP_KEY=```
 
 ```
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
-Esto instalará Vue 3, Inertia.js, Tailwind CSS y todas las dependencias del frontend.
-
-### 4️⃣ Configurar Variables de Entorno
-
-Copia el archivo de ejemplo `.env.example` a `.env`:
-
-```bash
-# Windows (PowerShell)
-Copy-Item .env.example .env
-
-# Linux/Mac
-cp .env.example .env
-```
-
-Abre el archivo `.env` y configura las siguientes variables:
-
-#### Configuración Básica
-
-```env
-# Nombre de la aplicación
-APP_NAME=TipSee
-APP_ENV=local
-APP_DEBUG=true
-APP_TIMEZONE=UTC
-
-# URL de la aplicación
-APP_URL=http://localhost:8000
-
-# Clave de encriptación (se genera en el paso siguiente)
-APP_KEY=
-```
-
 #### Base de Datos (SQLite - Recomendado para desarrollo)
 
+Esto instalará Vue 3, Inertia.js, Tailwind CSS y todas las dependencias del frontend.
+
 ```env
-DB_CONNECTION=sqlite
+
+DB_CONNECTION=sqlite### 4️⃣ Configurar Variables de Entorno
+
 # DB_HOST=127.0.0.1
-# DB_PORT=3306
+
+# DB_PORT=3306Copia el archivo de ejemplo `.env.example` a `.env`:
+
 # DB_DATABASE=tipsee
-# DB_USERNAME=root
-# DB_PASSWORD=
-```
 
-> **Nota:** SQLite no requiere configuración adicional. El archivo se creará automáticamente.
+# DB_USERNAME=root```bash
 
-#### Alternativa: Base de Datos MySQL
+# DB_PASSWORD=# Windows (PowerShell)
 
-Si prefieres usar MySQL, configura así:
+```Copy-Item .env.example .env
 
-```env
+
+
+> **Nota:** SQLite no requiere configuración adicional. El archivo se creará automáticamente.# Linux/Mac
+
+cp .env.example .env
+
+#### Alternativa: Base de Datos MySQL```
+
+
+
+Si prefieres usar MySQL, configura así:Abre el archivo `.env` y configura las siguientes variables:
+
+
+
+```env#### Configuración Básica
+
 DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=tipsee
-DB_USERNAME=root
-DB_PASSWORD=tu_password
-```
 
-Y crea la base de datos manualmente:
+DB_HOST=127.0.0.1```env
+
+DB_PORT=3306# Nombre de la aplicación
+
+DB_DATABASE=tipseeAPP_NAME=TipSee
+
+DB_USERNAME=rootAPP_ENV=local
+
+DB_PASSWORD=tu_passwordAPP_DEBUG=true
+
+```APP_TIMEZONE=UTC
+
+
+
+Y crea la base de datos manualmente:# URL de la aplicación
+
+APP_URL=http://localhost:8000
 
 ```sql
-CREATE DATABASE tipsee CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+
+CREATE DATABASE tipsee CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;# Clave de encriptación (se genera en el paso siguiente)
+
+```APP_KEY=
+
 ```
 
 #### Configuración de Email (Opcional - para verificación de email)
 
+#### Base de Datos (SQLite - Recomendado para desarrollo)
+
 Para desarrollo local, usa Mailtrap o log:
 
 ```env
-MAIL_MAILER=log
-MAIL_FROM_ADDRESS="noreply@tipsee.com"
-MAIL_FROM_NAME="${APP_NAME}"
-```
 
-Para producción con Gmail:
+```envDB_CONNECTION=sqlite
 
-```env
+MAIL_MAILER=log# DB_HOST=127.0.0.1
+
+MAIL_FROM_ADDRESS="noreply@tipsee.com"# DB_PORT=3306
+
+MAIL_FROM_NAME="${APP_NAME}"# DB_DATABASE=tipsee
+
+```# DB_USERNAME=root
+
+# DB_PASSWORD=
+
+Para producción con Gmail:```
+
+
+
+```env> **Nota:** SQLite no requiere configuración adicional. El archivo se creará automáticamente.
+
 MAIL_MAILER=smtp
-MAIL_HOST=smtp.gmail.com
+
+MAIL_HOST=smtp.gmail.com#### Alternativa: Base de Datos MySQL
+
 MAIL_PORT=587
-MAIL_USERNAME=tu-email@gmail.com
+
+MAIL_USERNAME=tu-email@gmail.comSi prefieres usar MySQL, configura así:
+
 MAIL_PASSWORD=tu-app-password
-MAIL_ENCRYPTION=tls
-MAIL_FROM_ADDRESS="noreply@tipsee.com"
-MAIL_FROM_NAME="${APP_NAME}"
-```
 
-#### Configuración de Sesiones
+MAIL_ENCRYPTION=tls```env
 
-```env
+MAIL_FROM_ADDRESS="noreply@tipsee.com"DB_CONNECTION=mysql
+
+MAIL_FROM_NAME="${APP_NAME}"DB_HOST=127.0.0.1
+
+```DB_PORT=3306
+
+DB_DATABASE=tipsee
+
+#### Configuración de SesionesDB_USERNAME=root
+
+DB_PASSWORD=tu_password
+
+```env```
+
 SESSION_DRIVER=file
-SESSION_LIFETIME=120
+
+SESSION_LIFETIME=120Y crea la base de datos manualmente:
+
 ```
 
-### 5️⃣ Generar Clave de Aplicación
+```sql
+
+### 5️⃣ Generar Clave de AplicaciónCREATE DATABASE tipsee CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+
+```
 
 ```bash
-php artisan key:generate
+
+php artisan key:generate#### Configuración de Email (Opcional - para verificación de email)
+
 ```
+
+Para desarrollo local, usa Mailtrap o log:
 
 Este comando genera una clave única en `APP_KEY` del archivo `.env`.
 
-### 6️⃣ Crear Base de Datos SQLite
+```env
 
-Si usas SQLite, crea el archivo de base de datos:
+### 6️⃣ Crear Base de Datos SQLiteMAIL_MAILER=log
+
+MAIL_FROM_ADDRESS="noreply@tipsee.com"
+
+Si usas SQLite, crea el archivo de base de datos:MAIL_FROM_NAME="${APP_NAME}"
+
+```
 
 ```bash
-# Windows (PowerShell)
+
+# Windows (PowerShell)Para producción con Gmail:
+
 New-Item database/database.sqlite
 
-# Linux/Mac
-touch database/database.sqlite
-```
+```env
 
-### 7️⃣ Ejecutar Migraciones
+# Linux/MacMAIL_MAILER=smtp
 
-Crea todas las tablas en la base de datos:
+touch database/database.sqliteMAIL_HOST=smtp.gmail.com
 
-```bash
+```MAIL_PORT=587
+
+MAIL_USERNAME=tu-email@gmail.com
+
+### 7️⃣ Ejecutar MigracionesMAIL_PASSWORD=tu-app-password
+
+MAIL_ENCRYPTION=tls
+
+Crea todas las tablas en la base de datos:MAIL_FROM_ADDRESS="noreply@tipsee.com"
+
+MAIL_FROM_NAME="${APP_NAME}"
+
+```bash```
+
 php artisan migrate
-```
 
-Verás una salida como:
+```#### Configuración de Sesiones
 
-```
-Migration table created successfully.
+
+
+Verás una salida como:```env
+
+SESSION_DRIVER=file
+
+```SESSION_LIFETIME=120
+
+Migration table created successfully.```
+
 Migrating: 2014_10_12_000000_create_users_table
-Migrated:  2014_10_12_000000_create_users_table
+
+Migrated:  2014_10_12_000000_create_users_table### 5️⃣ Generar Clave de Aplicación
+
 Migrating: 2024_xx_xx_create_creator_profiles_table
-Migrated:  2024_xx_xx_create_creator_profiles_table
-...
-```
 
-### 8️⃣ (Opcional) Poblar con Datos de Prueba
+Migrated:  2024_xx_xx_create_creator_profiles_table```bash
 
-Si quieres datos de ejemplo para probar:
+...php artisan key:generate
 
-```bash
+``````
+
+
+
+### 8️⃣ (Opcional) Poblar con Datos de PruebaEste comando genera una clave única en `APP_KEY` del archivo `.env`.
+
+
+
+Si quieres datos de ejemplo para probar:### 6️⃣ Crear Base de Datos SQLite
+
+
+
+```bashSi usas SQLite, crea el archivo de base de datos:
+
 php artisan db:seed
-```
 
-### 9️⃣ Compilar Assets del Frontend
+``````bash
 
-#### Para Desarrollo (con Hot Reload):
+# Windows (PowerShell)
 
-```bash
+### 9️⃣ Compilar Assets del FrontendNew-Item database/database.sqlite
+
+
+
+#### Para Desarrollo (con Hot Reload):# Linux/Mac
+
+touch database/database.sqlite
+
+```bash```
+
 npm run dev
-```
 
-Este comando mantiene el servidor corriendo y recarga automáticamente cuando editas archivos Vue.
+```### 7️⃣ Ejecutar Migraciones
 
-#### Para Producción (optimizado):
 
-```bash
+
+Este comando mantiene el servidor corriendo y recarga automáticamente cuando editas archivos Vue.Crea todas las tablas en la base de datos:
+
+
+
+#### Para Producción (optimizado):```bash
+
+php artisan migrate
+
+```bash```
+
 npm run build
+
+```Verás una salida como:
+
+
+
+Genera archivos optimizados en `public/build/`.```
+
+Migration table created successfully.
+
+---Migrating: 2014_10_12_000000_create_users_table
+
+Migrated:  2014_10_12_000000_create_users_table
+
+## 🏃‍♂️ Ejecutar la AplicaciónMigrating: 2024_xx_xx_create_creator_profiles_table
+
+Migrated:  2024_xx_xx_create_creator_profiles_table
+
+### Opción 1: Servidor de Desarrollo de Laravel...
+
 ```
-
-Genera archivos optimizados en `public/build/`.
-
----
-
-## 🏃‍♂️ Ejecutar la Aplicación
-
-### Opción 1: Servidor de Desarrollo de Laravel
 
 En una terminal, ejecuta:
 
+### 8️⃣ (Opcional) Poblar con Datos de Prueba
+
 ```bash
-php artisan serve
+
+php artisan serveSi quieres datos de ejemplo para probar:
+
 ```
 
-La aplicación estará disponible en: **http://localhost:8000**
+```bash
+
+La aplicación estará disponible en: **http://localhost:8000**php artisan db:seed
+
+```
 
 ### Opción 2: Con Laragon (Windows)
 
+### 9️⃣ Compilar Assets del Frontend
+
 Si usas Laragon:
 
-1. Mueve el proyecto a `C:\laragon\www\tipsee`
-2. Accede a: **http://tipsee.test**
+#### Para Desarrollo (con Hot Reload):
+
+1. Mueve el proyecto a `C:\laragon\www\esponsor-clone`
+
+2. Accede a: **http://esponsor-clone.test**```bash
+
+npm run dev
+
+### Opción 3: Con XAMPP/WAMP```
+
+
+
+Configura un Virtual Host apuntando a la carpeta `public/` del proyecto.Este comando mantiene el servidor corriendo y recarga automáticamente cuando editas archivos Vue.
+
+
+
+---#### Para Producción (optimizado):
+
+
+
+## 🌐 Probar en Móvil (Túnel SSH)```bash
+
+npm run build
+
+Para probar la aplicación en tu dispositivo móvil, crea un túnel con **serveo.net**:```
+
+
+
+### Paso 1: Asegúrate que el servidor está corriendoGenera archivos optimizados en `public/build/`.
+
+
+
+```bash---
+
+php artisan serve
+
+```## 🏃‍♂️ Ejecutar la Aplicación
+
+
+
+### Paso 2: En otra terminal, crea el túnel### Opción 1: Servidor de Desarrollo de Laravel
+
+
+
+```bashEn una terminal, ejecuta:
+
+ssh -R 80:localhost:8000 serveo.net
+
+``````bash
+
+php artisan serve
+
+Verás algo como:```
+
+
+
+```La aplicación estará disponible en: **http://localhost:8000**
+
+Forwarding HTTP traffic from https://random-name.serveo.net
+
+```### Opción 2: Con Laragon (Windows)
+
+
+
+### Paso 3: Actualiza APP_URL en .envSi usas Laragon:
+
+
+
+```env1. Mueve el proyecto a `C:\laragon\www\tipsee`
+
+APP_URL=https://random-name.serveo.net2. Accede a: **http://tipsee.test**
+
+```
 
 ### Opción 3: Con XAMPP/WAMP
 
-Configura un Virtual Host apuntando a la carpeta `public/` del proyecto.
-
----
-
-## 🌐 Probar en Móvil (Túnel SSH)
-
-Para probar la aplicación en tu dispositivo móvil, crea un túnel con **serveo.net**:
-
-### Paso 1: Asegúrate que el servidor está corriendo
-
-```bash
-php artisan serve
-```
-
-### Paso 2: En otra terminal, crea el túnel
-
-```bash
-ssh -R 80:localhost:8000 serveo.net
-```
-
-Verás algo como:
-
-```
-Forwarding HTTP traffic from https://random-name.serveo.net
-```
-
-### Paso 3: Actualiza APP_URL en .env
-
-```env
-APP_URL=https://random-name.serveo.net
-```
-
 ### Paso 4: Limpia la caché
 
+Configura un Virtual Host apuntando a la carpeta `public/` del proyecto.
+
 ```bash
-php artisan config:clear
+
+php artisan config:clear---
+
 php artisan cache:clear
-```
 
-Ahora puedes acceder desde tu móvil usando la URL proporcionada.
+```## 🌐 Probar en Móvil (Túnel SSH)
 
----
 
-## 👤 Crear Primera Cuenta
 
-1. Visita **http://localhost:8000**
+Ahora puedes acceder desde tu móvil usando la URL proporcionada.Para probar la aplicación en tu dispositivo móvil, crea un túnel con **serveo.net**:
+
+
+
+---### Paso 1: Asegúrate que el servidor está corriendo
+
+
+
+## 👤 Crear Primera Cuenta```bash
+
+php artisan serve
+
+1. Visita **http://localhost:8000**```
+
 2. Haz clic en **"Registrarse"**
-3. Completa el formulario:
-   - Nombre: Tu nombre
-   - Email: tu@email.com
-   - Contraseña: mínimo 8 caracteres
-4. Confirma el email (si está configurado) o usa:
 
-```bash
+3. Completa el formulario:### Paso 2: En otra terminal, crea el túnel
+
+   - Nombre: Tu nombre
+
+   - Email: tu@email.com```bash
+
+   - Contraseña: mínimo 8 caracteresssh -R 80:localhost:8000 serveo.net
+
+4. Confirma el email (si está configurado) o usa:```
+
+
+
+```bashVerás algo como:
+
 # Verificar manualmente en desarrollo
-php artisan tinker
->>> $user = \App\Models\User::where('email', 'tu@email.com')->first();
->>> $user->email_verified_at = now();
+
+php artisan tinker```
+
+>>> $user = \App\Models\User::where('email', 'tu@email.com')->first();Forwarding HTTP traffic from https://random-name.serveo.net
+
+>>> $user->email_verified_at = now();```
+
 >>> $user->save();
->>> exit
+
+>>> exit### Paso 3: Actualiza APP_URL en .env
+
 ```
 
-5. Inicia sesión y accede al **Dashboard**
+```env
+
+5. Inicia sesión y accede al **Dashboard**APP_URL=https://random-name.serveo.net
+
+```
 
 ---
+
+### Paso 4: Limpia la caché
 
 ## 🔧 Comandos Útiles de Artisan
 
 ```bash
-# Limpiar cachés
-php artisan cache:clear
+
+```bashphp artisan config:clear
+
+# Limpiar cachésphp artisan cache:clear
+
+php artisan cache:clear```
+
 php artisan config:clear
-php artisan route:clear
+
+php artisan route:clearAhora puedes acceder desde tu móvil usando la URL proporcionada.
+
 php artisan view:clear
 
+---
+
 # Ver todas las rutas
-php artisan route:list
 
-# Crear un nuevo usuario desde CLI
-php artisan tinker
+php artisan route:list## 👤 Crear Primera Cuenta
 
-# Rollback de migraciones
-php artisan migrate:rollback
 
-# Refrescar base de datos (¡Elimina todos los datos!)
+
+# Crear un nuevo usuario desde CLI1. Visita **http://localhost:8000**
+
+php artisan tinker2. Haz clic en **"Registrarse"**
+
+3. Completa el formulario:
+
+# Rollback de migraciones   - Nombre: Tu nombre
+
+php artisan migrate:rollback   - Email: tu@email.com
+
+   - Contraseña: mínimo 8 caracteres
+
+# Refrescar base de datos (¡Elimina todos los datos!)4. Confirma el email (si está configurado) o usa:
+
 php artisan migrate:fresh
 
-# Con seeders
-php artisan migrate:fresh --seed
+```bash
 
-# Ver logs en tiempo real
-php artisan log:tail
-```
+# Con seeders# Verificar manualmente en desarrollo
 
----
+php artisan migrate:fresh --seedphp artisan tinker
 
-## 📁 Estructura del Proyecto
+```>>> $user = \App\Models\User::where('email', 'tu@email.com')->first();
 
-```
-tipsee/
-├── app/
+>>> $user->email_verified_at = now();
+
+--->>> $user->save();
+
+>>> exit
+
+## 📁 Estructura del Proyecto```
+
+
+
+```5. Inicia sesión y accede al **Dashboard**
+
+esponsor-clone/
+
+├── app/---
+
 │   ├── Http/
-│   │   ├── Controllers/
+
+│   │   ├── Controllers/## 🔧 Comandos Útiles de Artisan
+
 │   │   │   ├── DashboardController.php      # Vista principal del creador
-│   │   │   ├── CreatorProfileController.php # Gestión de perfil
-│   │   │   ├── CreatorLinkController.php    # CRUD de links
-│   │   │   ├── SupportController.php        # Procesa apoyos
-│   │   │   └── PublicCreatorController.php  # Página pública
-│   │   └── Requests/
-│   │       └── ProfileUpdateRequest.php
+
+│   │   │   ├── CreatorProfileController.php # Gestión de perfil```bash
+
+│   │   │   ├── CreatorLinkController.php    # CRUD de links# Limpiar cachés
+
+│   │   │   ├── SupportController.php        # Procesa apoyosphp artisan cache:clear
+
+│   │   │   └── PublicCreatorController.php  # Página públicaphp artisan config:clear
+
+│   │   └── Requests/php artisan route:clear
+
+│   │       └── ProfileUpdateRequest.phpphp artisan view:clear
+
 │   └── Models/
-│       ├── User.php
-│       ├── CreatorProfile.php
+
+│       ├── User.php# Ver todas las rutas
+
+│       ├── CreatorProfile.phpphp artisan route:list
+
 │       ├── CreatorLink.php
-│       └── Support.php
-├── database/
+
+│       └── Support.php# Crear un nuevo usuario desde CLI
+
+├── database/php artisan tinker
+
 │   ├── migrations/          # Estructura de tablas
-│   └── database.sqlite      # Base de datos SQLite
-├── resources/
+
+│   └── database.sqlite      # Base de datos SQLite# Rollback de migraciones
+
+├── resources/php artisan migrate:rollback
+
 │   ├── js/
-│   │   ├── Components/      # Componentes reutilizables
-│   │   ├── Layouts/         # Layouts (AuthenticatedLayout)
+
+│   │   ├── Components/      # Componentes reutilizables# Refrescar base de datos (¡Elimina todos los datos!)
+
+│   │   ├── Layouts/         # Layouts (AuthenticatedLayout)php artisan migrate:fresh
+
 │   │   └── Pages/           # Páginas Vue
-│   │       ├── Welcome.vue
-│   │       ├── Dashboard.vue
+
+│   │       ├── Welcome.vue# Con seeders
+
+│   │       ├── Dashboard.vuephp artisan migrate:fresh --seed
+
 │   │       ├── Auth/
-│   │       ├── Profile/
-│   │       └── Public/
-│   └── views/
+
+│   │       ├── Profile/# Ver logs en tiempo real
+
+│   │       └── Public/php artisan log:tail
+
+│   └── views/```
+
 │       └── app.blade.php    # Template principal
-├── routes/
+
+├── routes/---
+
 │   ├── web.php              # Rutas de la aplicación
-│   └── auth.php             # Rutas de autenticación
+
+│   └── auth.php             # Rutas de autenticación## 📁 Estructura del Proyecto
+
 ├── public/
-│   └── build/               # Assets compilados (generados)
-├── .env                     # Variables de entorno (NO SUBIR A GIT)
+
+│   └── build/               # Assets compilados (generados)```
+
+├── .env                     # Variables de entorno (NO SUBIR A GIT)tipsee/
+
+├── .env.example             # Ejemplo de configuración├── app/
+
+├── composer.json            # Dependencias PHP│   ├── Http/
+
+├── package.json             # Dependencias JavaScript│   │   ├── Controllers/
+
+└── README.md                # Este archivo│   │   │   ├── DashboardController.php      # Vista principal del creador
+
+```│   │   │   ├── CreatorProfileController.php # Gestión de perfil
+
+│   │   │   ├── CreatorLinkController.php    # CRUD de links
+
+---│   │   │   ├── SupportController.php        # Procesa apoyos
+
+│   │   │   └── PublicCreatorController.php  # Página pública
+
+## 🔑 Variables de Entorno Importantes│   │   └── Requests/
+
+│   │       └── ProfileUpdateRequest.php
+
+| Variable | Descripción | Ejemplo |│   └── Models/
+
+|----------|-------------|---------|│       ├── User.php
+
+| `APP_NAME` | Nombre de la aplicación | `TipSee` |│       ├── CreatorProfile.php
+
+| `APP_ENV` | Entorno de ejecución | `local` / `production` |│       ├── CreatorLink.php
+
+| `APP_DEBUG` | Mostrar errores detallados | `true` (dev) / `false` (prod) |│       └── Support.php
+
+| `APP_URL` | URL base de la aplicación | `http://localhost:8000` |├── database/
+
+| `DB_CONNECTION` | Tipo de base de datos | `sqlite` / `mysql` / `pgsql` |│   ├── migrations/          # Estructura de tablas
+
+| `MAIL_MAILER` | Driver de email | `log` / `smtp` / `ses` |│   └── database.sqlite      # Base de datos SQLite
+
+├── resources/
+
+---│   ├── js/
+
+│   │   ├── Components/      # Componentes reutilizables
+
+## 🌍 Configuración para Producción│   │   ├── Layouts/         # Layouts (AuthenticatedLayout)
+
+│   │   └── Pages/           # Páginas Vue
+
+### 1. Actualizar .env para Producción│   │       ├── Welcome.vue
+
+│   │       ├── Dashboard.vue
+
+```env│   │       ├── Auth/
+
+APP_ENV=production│   │       ├── Profile/
+
+APP_DEBUG=false│   │       └── Public/
+
+APP_URL=https://tudominio.com│   └── views/
+
+│       └── app.blade.php    # Template principal
+
+# Base de datos de producción├── routes/
+
+DB_CONNECTION=mysql│   ├── web.php              # Rutas de la aplicación
+
+DB_HOST=tu-host-de-produccion│   └── auth.php             # Rutas de autenticación
+
+DB_DATABASE=nombre_bd├── public/
+
+DB_USERNAME=usuario│   └── build/               # Assets compilados (generados)
+
+DB_PASSWORD=password_seguro├── .env                     # Variables de entorno (NO SUBIR A GIT)
+
 ├── .env.example             # Ejemplo de configuración
-├── composer.json            # Dependencias PHP
-├── package.json             # Dependencias JavaScript
-└── README.md                # Este archivo
-```
 
----
+# Email de producción├── composer.json            # Dependencias PHP
 
-## 🔑 Variables de Entorno Importantes
+MAIL_MAILER=smtp├── package.json             # Dependencias JavaScript
 
-| Variable | Descripción | Ejemplo |
+MAIL_HOST=smtp.tuproveedor.com└── README.md                # Este archivo
+
+``````
+
+
+
+### 2. Optimizar para Producción---
+
+
+
+```bash## 🔑 Variables de Entorno Importantes
+
+# Compilar assets optimizados
+
+npm run build| Variable | Descripción | Ejemplo |
+
 |----------|-------------|---------|
-| `APP_NAME` | Nombre de la aplicación | `TipSee` |
-| `APP_ENV` | Entorno de ejecución | `local` / `production` |
-| `APP_DEBUG` | Mostrar errores detallados | `true` (dev) / `false` (prod) |
-| `APP_URL` | URL base de la aplicación | `http://localhost:8000` |
+
+# Cachear configuración| `APP_NAME` | Nombre de la aplicación | `TipSee` |
+
+php artisan config:cache| `APP_ENV` | Entorno de ejecución | `local` / `production` |
+
+php artisan route:cache| `APP_DEBUG` | Mostrar errores detallados | `true` (dev) / `false` (prod) |
+
+php artisan view:cache| `APP_URL` | URL base de la aplicación | `http://localhost:8000` |
+
 | `DB_CONNECTION` | Tipo de base de datos | `sqlite` / `mysql` / `pgsql` |
-| `MAIL_MAILER` | Driver de email | `log` / `smtp` / `ses` |
 
----
+# Optimizar autoload de Composer| `MAIL_MAILER` | Driver de email | `log` / `smtp` / `ses` |
 
-## 🌍 Configuración para Producción
+composer install --optimize-autoloader --no-dev
 
-### 1. Actualizar .env para Producción
+```---
 
-```env
-APP_ENV=production
-APP_DEBUG=false
+
+
+### 3. Configurar Permisos## 🌍 Configuración para Producción
+
+
+
+```bash### 1. Actualizar .env para Producción
+
+# En servidor Linux
+
+chmod -R 775 storage bootstrap/cache```env
+
+chown -R www-data:www-data storage bootstrap/cacheAPP_ENV=production
+
+```APP_DEBUG=false
+
 APP_URL=https://tudominio.com
 
-# Base de datos de producción
-DB_CONNECTION=mysql
-DB_HOST=tu-host-de-produccion
-DB_DATABASE=nombre_bd
-DB_USERNAME=usuario
-DB_PASSWORD=password_seguro
+### 4. Configurar Web Server
 
-# Email de producción
-MAIL_MAILER=smtp
-MAIL_HOST=smtp.tuproveedor.com
-```
+# Base de datos de producción
+
+#### Apache (.htaccess ya incluido)DB_CONNECTION=mysql
+
+DB_HOST=tu-host-de-produccion
+
+Apunta el DocumentRoot a la carpeta `public/`.DB_DATABASE=nombre_bd
+
+DB_USERNAME=usuario
+
+#### NginxDB_PASSWORD=password_seguro
+
+
+
+```nginx# Email de producción
+
+server {MAIL_MAILER=smtp
+
+    listen 80;MAIL_HOST=smtp.tuproveedor.com
+
+    server_name tudominio.com;```
+
+    root /ruta/a/esponsor-clone/public;
 
 ### 2. Optimizar para Producción
 
-```bash
-# Compilar assets optimizados
-npm run build
+    add_header X-Frame-Options "SAMEORIGIN";
 
-# Cachear configuración
+    add_header X-Content-Type-Options "nosniff";```bash
+
+# Compilar assets optimizados
+
+    index index.php;npm run build
+
+
+
+    charset utf-8;# Cachear configuración
+
 php artisan config:cache
-php artisan route:cache
-php artisan view:cache
+
+    location / {php artisan route:cache
+
+        try_files $uri $uri/ /index.php?$query_string;php artisan view:cache
+
+    }
 
 # Optimizar autoload de Composer
-composer install --optimize-autoloader --no-dev
-```
 
-### 3. Configurar Permisos
+    location ~ \.php$ {composer install --optimize-autoloader --no-dev
+
+        fastcgi_pass unix:/var/run/php/php8.2-fpm.sock;```
+
+        fastcgi_param SCRIPT_FILENAME $realpath_root$fastcgi_script_name;
+
+        include fastcgi_params;### 3. Configurar Permisos
+
+    }
 
 ```bash
-# En servidor Linux
-chmod -R 775 storage bootstrap/cache
-chown -R www-data:www-data storage bootstrap/cache
+
+    location ~ /\.(?!well-known).* {# En servidor Linux
+
+        deny all;chmod -R 775 storage bootstrap/cache
+
+    }chown -R www-data:www-data storage bootstrap/cache
+
+}```
+
 ```
 
 ### 4. Configurar Web Server
 
-#### Apache (.htaccess ya incluido)
-
-Apunta el DocumentRoot a la carpeta `public/`.
-
-#### Nginx
-
-```nginx
-server {
-    listen 80;
-    server_name tudominio.com;
-    root /ruta/a/tipsee/public;
-
-    add_header X-Frame-Options "SAMEORIGIN";
-    add_header X-Content-Type-Options "nosniff";
-
-    index index.php;
-
-    charset utf-8;
-
-    location / {
-        try_files $uri $uri/ /index.php?$query_string;
-    }
-
-    location ~ \.php$ {
-        fastcgi_pass unix:/var/run/php/php8.2-fpm.sock;
-        fastcgi_param SCRIPT_FILENAME $realpath_root$fastcgi_script_name;
-        include fastcgi_params;
-    }
-
-    location ~ /\.(?!well-known).* {
-        deny all;
-    }
-}
-```
-
 ---
+
+#### Apache (.htaccess ya incluido)
 
 ## 🐛 Solución de Problemas Comunes
 
+Apunta el DocumentRoot a la carpeta `public/`.
+
 ### Error: "No application encryption key has been specified"
 
-```bash
-php artisan key:generate
-```
-
-### Error: "SQLSTATE[HY000]: General error: 1 no such table"
+#### Nginx
 
 ```bash
-php artisan migrate
-```
 
-### Error: "npm ERR! code ENOENT"
+php artisan key:generate```nginx
+
+```server {
+
+    listen 80;
+
+### Error: "SQLSTATE[HY000]: General error: 1 no such table"    server_name tudominio.com;
+
+    root /ruta/a/tipsee/public;
 
 ```bash
+
+php artisan migrate    add_header X-Frame-Options "SAMEORIGIN";
+
+```    add_header X-Content-Type-Options "nosniff";
+
+
+
+### Error: "npm ERR! code ENOENT"    index index.php;
+
+
+
+```bash    charset utf-8;
+
 rm -rf node_modules package-lock.json
-npm install
-```
+
+npm install    location / {
+
+```        try_files $uri $uri/ /index.php?$query_string;
+
+    }
 
 ### Los cambios en Vue no se reflejan
 
-```bash
-# Detén npm run dev (Ctrl+C)
-npm run build
-# Vuelve a iniciar
+    location ~ \.php$ {
+
+```bash        fastcgi_pass unix:/var/run/php/php8.2-fpm.sock;
+
+# Detén npm run dev (Ctrl+C)        fastcgi_param SCRIPT_FILENAME $realpath_root$fastcgi_script_name;
+
+npm run build        include fastcgi_params;
+
+# Vuelve a iniciar    }
+
 npm run dev
+
+```    location ~ /\.(?!well-known).* {
+
+        deny all;
+
+### Error: "Class 'X' not found"    }
+
+}
+
+```bash```
+
+composer dump-autoload
+
+```---
+
+
+
+### Error: "Target class [X] does not exist"## 🐛 Solución de Problemas Comunes
+
+
+
+Verifica que el namespace del controlador sea correcto en `routes/web.php`.### Error: "No application encryption key has been specified"
+
+
+
+### HTTPS no funciona en túnel serveo.net```bash
+
+php artisan key:generate
+
+Agrega en `app/Providers/AppServiceProvider.php`:```
+
+
+
+```php### Error: "SQLSTATE[HY000]: General error: 1 no such table"
+
+public function boot()
+
+{```bash
+
+    if (config('app.env') === 'local' && str_contains(config('app.url'), 'https://')) {php artisan migrate
+
+        \Illuminate\Support\Facades\URL::forceScheme('https');```
+
+    }
+
+}### Error: "npm ERR! code ENOENT"
+
 ```
+
+```bash
+
+---rm -rf node_modules package-lock.json
+
+npm install
+
+## 📚 Documentación Adicional```
+
+
+
+- **Laravel:** https://laravel.com/docs### Los cambios en Vue no se reflejan
+
+- **Vue 3:** https://vuejs.org/guide/introduction.html
+
+- **Inertia.js:** https://inertiajs.com/```bash
+
+- **Tailwind CSS:** https://tailwindcss.com/docs# Detén npm run dev (Ctrl+C)
+
+- **Documentación Técnica del Proyecto:** Ver `DOCUMENTACION_TECNICA.md`npm run build
+
+# Vuelve a iniciar
+
+---npm run dev
+
+```
+
+## 🔐 Seguridad
 
 ### Error: "Class 'X' not found"
 
-```bash
-composer dump-autoload
-```
+- **NUNCA** subas el archivo `.env` a Git
 
-### Error: "Target class [X] does not exist"
+- Cambia `APP_KEY` en cada instalación```bash
 
-Verifica que el namespace del controlador sea correcto en `routes/web.php`.
+- Usa contraseñas seguras en produccióncomposer dump-autoload
 
-### HTTPS no funciona en túnel serveo.net
+- Activa HTTPS en producción```
 
-Agrega en `app/Providers/AppServiceProvider.php`:
+- Configura CORS correctamente
 
-```php
-public function boot()
-{
+- Mantén Laravel y dependencias actualizadas### Error: "Target class [X] does not exist"
+
+
+
+---Verifica que el namespace del controlador sea correcto en `routes/web.php`.
+
+
+
+## 🤝 Contribuir### HTTPS no funciona en túnel serveo.net
+
+
+
+1. Haz fork del proyectoAgrega en `app/Providers/AppServiceProvider.php`:
+
+2. Crea una rama feature (`git checkout -b feature/nueva-funcionalidad`)
+
+3. Commit tus cambios (`git commit -m 'Agrega nueva funcionalidad'`)```php
+
+4. Push a la rama (`git push origin feature/nueva-funcionalidad`)public function boot()
+
+5. Abre un Pull Request{
+
     if (config('app.env') === 'local' && str_contains(config('app.url'), 'https://')) {
-        \Illuminate\Support\Facades\URL::forceScheme('https');
+
+---        \Illuminate\Support\Facades\URL::forceScheme('https');
+
     }
-}
+
+## 📄 Licencia}
+
 ```
+
+Este proyecto es de código abierto bajo la licencia MIT.
+
+---
 
 ---
 
 ## 📚 Documentación Adicional
 
+## 👨‍💻 Autor
+
 - **Laravel:** https://laravel.com/docs
-- **Vue 3:** https://vuejs.org/guide/introduction.html
+
+Desarrollado por **Nicolás** como proyecto de práctica profesional.- **Vue 3:** https://vuejs.org/guide/introduction.html
+
 - **Inertia.js:** https://inertiajs.com/
-- **Tailwind CSS:** https://tailwindcss.com/docs
+
+**GitHub:** [@only-nico](https://github.com/only-nico)- **Tailwind CSS:** https://tailwindcss.com/docs
+
 - **Documentación Técnica del Proyecto:** Ver `DOCUMENTACION_TECNICA.md`
 
 ---
 
+---
+
+## 🙏 Agradecimientos
+
 ## 🔐 Seguridad
 
-- **NUNCA** subas el archivo `.env` a Git
-- Cambia `APP_KEY` en cada instalación
-- Usa contraseñas seguras en producción
-- Activa HTTPS en producción
-- Configura CORS correctamente
-- Mantén Laravel y dependencias actualizadas
+- Laravel Team
 
----
+- Vue.js Team- **NUNCA** subas el archivo `.env` a Git
+
+- Inertia.js- Cambia `APP_KEY` en cada instalación
+
+- Tailwind CSS- Usa contraseñas seguras en producción
+
+- Comunidad Open Source- Activa HTTPS en producción
+
+- Configura CORS correctamente
+
+---- Mantén Laravel y dependencias actualizadas
+
+
+
+**¡Disfruta construyendo con TipSee! 🚀**---
+
 
 ## 🤝 Contribuir
 
