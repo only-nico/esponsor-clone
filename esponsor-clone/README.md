@@ -49,13 +49,33 @@ Copy-Item .env.example .env
 cp .env.example .env
 ```
 
-Configuración básica en `.env`:
+Edita el archivo `.env` con estas configuraciones esenciales:
 
 ```env
+# Configuración de la aplicación
 APP_NAME=TipSee
+APP_ENV=local
+APP_DEBUG=true
 APP_URL=http://localhost:8000
+
+# Base de datos
 DB_CONNECTION=sqlite
+
+# Sesiones (importante para autenticación)
+SESSION_DRIVER=database
+SESSION_LIFETIME=120
+
+# Cache y Colas
+CACHE_STORE=database
+QUEUE_CONNECTION=database
+
+# Email (para desarrollo)
+MAIL_MAILER=log
+MAIL_FROM_ADDRESS="noreply@tipsee.com"
+MAIL_FROM_NAME="${APP_NAME}"
 ```
+
+> **⚠️ Importante:** Las configuraciones de `SESSION_DRIVER`, `CACHE_STORE` y `QUEUE_CONNECTION` deben estar en `database` para que las migraciones creen las tablas necesarias.
 
 ### 4️⃣ Generar Clave y Preparar Base de Datos
 
@@ -166,6 +186,11 @@ DB_PORT=3306
 DB_DATABASE=tipsee
 DB_USERNAME=root
 DB_PASSWORD=tu_password
+
+# Mantén estas configuraciones
+SESSION_DRIVER=database
+CACHE_STORE=database
+QUEUE_CONNECTION=database
 ```
 
 Crea la base de datos:
@@ -173,6 +198,30 @@ Crea la base de datos:
 ```sql
 CREATE DATABASE tipsee CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 ```
+
+Luego ejecuta las migraciones:
+
+```bash
+php artisan migrate
+```
+
+---
+
+## 🔐 Variables de Entorno Importantes
+
+| Variable | Descripción | Valor Recomendado |
+|----------|-------------|-------------------|
+| `APP_NAME` | Nombre de la aplicación | `TipSee` |
+| `APP_ENV` | Entorno de ejecución | `local` (desarrollo) / `production` |
+| `APP_DEBUG` | Mostrar errores detallados | `true` (desarrollo) / `false` (producción) |
+| `APP_URL` | URL base de la aplicación | `http://localhost:8000` |
+| `DB_CONNECTION` | Tipo de base de datos | `sqlite` o `mysql` |
+| `SESSION_DRIVER` | Driver de sesiones | `database` (requerido) |
+| `CACHE_STORE` | Sistema de caché | `database` (recomendado) |
+| `QUEUE_CONNECTION` | Sistema de colas | `database` (recomendado) |
+| `MAIL_MAILER` | Driver de email | `log` (desarrollo) / `smtp` (producción) |
+
+> **⚠️ Nota:** Las configuraciones de `SESSION_DRIVER`, `CACHE_STORE` y `QUEUE_CONNECTION` en `database` requieren que las migraciones se hayan ejecutado correctamente.
 
 ---
 
@@ -188,6 +237,28 @@ php artisan key:generate
 
 ```bash
 php artisan migrate
+```
+
+### Error: "Driver [database] not supported" (Sesiones/Cache)
+
+Asegúrate de que las migraciones se hayan ejecutado correctamente. Las tablas `sessions`, `cache`, y `jobs` son necesarias:
+
+```bash
+php artisan migrate
+```
+
+### Error de HTTPS en túnel (serveo.net)
+
+Si usas un túnel HTTPS, actualiza tu `.env`:
+
+```env
+APP_URL=https://tu-subdominio.serveo.net
+```
+
+Y limpia la caché:
+
+```bash
+php artisan config:clear
 ```
 
 ### Los cambios en Vue no se reflejan
